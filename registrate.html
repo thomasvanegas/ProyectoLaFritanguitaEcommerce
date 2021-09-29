@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Inicio - La Frintanguita - Tienda de Abarrotes</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header">
+            <h1>Regístrate</h1>
+            <img src="./IMG/LogotiposOrganizacion/LogoLaFritanguitaDefinitivo.png" class="header__logo" alt="Logotipo de 'La Fritanguita' color naranja y letras blancas">
+        </div>
+
+    </header>
+
+    <div class="contenedor__principal">
+
+        <main>
+            <form action="#">
+
+                <div class="formulario__registro">
+
+                    <label for="nombreUsuario">Nombre</label>
+                    <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Escriba su nombre aquí..." size="60" required>
+
+                    <label for="apellidosUsuario">Apellidos</label>
+                    <input type="text" name="apellidosUsuario" id="apellidosUsuario" placeholder="Escriba sus apellidos aquí..." size="60" required>
+
+                    <label for="tipoDocumentoUsuario">Tipo de Documento</label>
+                    <select name="tipoDocumentoUsuario" id="tipoDocumentoUsuario" required>
+                        <option value="tipoDocumentoUsuario">Cédula de Ciudadania</option>
+                        <option value="tipoDocumentoUsuario">Tarjeta de Identidad</option>
+                        <option value="tipoDocumentoUsuario">Cédula de Extranjería</option>
+                    </select>
+
+                    <label for="numeroDocumentoUsuario">Número de Documento</label>
+                    <input type="number" name="numeroDocumentoUsuario" id="numeroDocumentoUsuario" class="numero__documento__celular" placeholder="Ingresa tú número de documento aquí..." required>
+
+                    <label for="correoElectronicoUsuario">Correo Electrónico</label>
+                    <input type="email" name="correoElectronicoUsuario" id="correoElectronicoUsuario" placeholder="Escribe tú correo electrónico aquí..." size="60" required>
+
+                    <label for="confirmacionCorreoElectronicoUsuario">Confirmación Correo Electrónico</label>
+                    <input type="email" name="confirmacionCorreoElectronicoUsuario" id="confirmacionCorreoElectronicoUsuario" placeholder="Escribe nuevamente tú correo electrónico aquí..." size="60" required>
+
+                    <label for="contrasenaUsuario">Contraseña</label>
+                    <input type="password" name="contrasenaUsuario" id="contrasenaUsuario" placeholder="Digite su cotraseña aquí..." size="60" required>
+
+                    <label for="confirmacionContrasenaUsuario">Confirmación Contraseña</label>
+                    <input type="password" name="confirmacionContrasenaUsuario" id="confirmacionContrasenaUsuario" placeholder="Digite nuevamente su cotraseña aquí..." size="60" required>
+
+                    <label for="numeroCelularUsuario">Número de Celular</label>
+                    <input type="number" name="numeroCelularUsuario" id="numeroCelularUsuario" class="numero__documento__celular" placeholder="Ingresa tú número de celular aquí..." required>
+
+                </div>
+
+            </form>
+        </main>
+
+        <aside>
+
+            <div class="aside__ingresar__facebook__google">
+                <a href="#"><img src="./IMG/RedesSociales/LogoFacebook.png" alt="Logotipo de la red social 'Facebook'" class="logo__redes__sociales"></a> 
+                <button  id="boton__facebook">Continua con Facebook...</button>
+            </div>
+
+            <div class="aside__ingresar__facebook__google">
+                <a href="#"><img src="./IMG/RedesSociales/LogoGoogle.png" alt="Logotipo de 'Google'" class="logo__redes__sociales"></a> 
+                <button id="boton__google">Continua con Google...</button>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <div class="checkboxes__boton__registrarme">
+
+        <div class="checkbox__datos__personales__condiciones__uso">
+            <input type="checkbox" name="checkboxTratamientoDatosPersonales" id="checkboxTratamientoDatosPersonales" required>
+            <label for="checkboxTratamientoDatosPersonales">Estoy de acuerdo con la <a href="#">política de tratamiento de datos personales</a> </label>
+        </div>
+
+        <div class="checkbox__datos__personales__condiciones__uso">
+            <input type="checkbox" name="checkboxTerminosCondicionesUso" id="checkboxTerminosCondicionesUso" required>
+            <label for="checkboxTerminosCondicionesUso">Estoy de acuerdo con los <a href="#">términos y condiciones de uso</a></label>
+        </div>
+
+        <div class="boton__registrarme">
+            <button type="submit" name="formularioRegistro">REGISTRARME</button>
+        </div>
+
+    </div>
+
+    <div class="tienes__cuenta">
+        <h3>¿Ya tienes una cuenta en lafritanguita.com?</h3>
+
+        <span class="boton__ingresa__aqui">
+        <a href="iniciarSesion.html">¡INGRESA AQUÍ!</a>
+        </span>
+
+    </div>
+
+    <footer>
+
+        <div class="footer__registrate">
+            <p>Al estar de acuerdo tanto con la <a href="#">política de tratamiento de datos personales</a> como con los 
+                <a href="#">términos y condiciones de uso</a> autoriza a LA FRITANGUITA para el tratamiento de sus 
+                datos personales la cual ha leído y acepta.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="footer__registrate">
+            <p>2021 Copyright LA FRITANGUITA COLOMBIA. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
