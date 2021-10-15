@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles_mi_carrito.css">
+    <title>Mi Carrito - La Frintanguita - Tienda de Abarrotes</title>
+</head>
+
+<body>
+
+    <header class="header__organizacion">
+        <h1 class="fuente__naranja">Resumen de Tú Pedido</h1>
+        <span class="header__pedido">
+            <h2 class="fuente__naranja">Número de Pedido (ID):</h2> 
+            <h2>01234567 (Número de 8 dígitos)</h2>
+        </span>
+    </header>
+
+    <main class="productos__organizacion">
+
+        <div class="contenedor__main">
+
+            <h2 class="fuente__naranja">Tú Carrito</h2>
+
+            <div class="carrito__producto">
+
+                <span class="descripcion__producto">
+                    <p>Detergente en Polvo Ariel x 450g</p>
+                </span>
+
+                <span>
+                    <p>$3.600</p>
+                </span>
+
+                <!-- BOTÓN DE INCREMENTO Y DECREMENTO DE PRODUCTOS -->
+                <span>
+                    <div class="boton__decremento__incremento">
+                        <span class="menos-1">-</span>
+                        <span class="numero-1">01</span>
+                        <span class="mas-1">+</span>
+                    </div>
+                </span>
+
+                <span>
+                    <p>$3.600</p>
+                </span>
+
+                <span>
+                    <button type="button" class="btn__eliminar__producto"><img src="./IMG/Iconos/DeleteIcon1x.png" alt=""></button>
+                </span>
+
+            </div>
+
+
+            <div class="carrito__producto">
+
+                <span class="descripcion__producto">
+                    <p>Leche Colanta Entera x 1000 ml</p>
+                </span>
+
+                <span>
+                    $2.800
+                </span>
+
+                <!-- BOTÓN DE INCREMENTO Y DECREMENTO DE PRODUCTOS -->
+                <span>
+                    <div class="boton__decremento__incremento">
+                        <span class="menos-2">-</span>
+                        <span class="numero-2">01</span>
+                        <span class="mas-2">+</span>
+                    </div>
+                </span>
+
+                <span>
+                    $5.600
+                </span>
+
+                <span>
+                    <button type="button" class="btn__eliminar__producto"><img src="./IMG/Iconos/DeleteIcon1x.png" alt=""></button>
+                </span>
+
+            </div>
+
+
+            <div class="carrito__producto">
+
+                <span class="descripcion__producto">
+                    <p>Arroz Roa x 500g</p>
+                </span>
+
+                <span>
+                    $1.600
+                </span>
+
+                <!-- BOTÓN DE INCREMENTO Y DECREMENTO DE PRODUCTOS -->
+                <span>
+                    <div class="boton__decremento__incremento">
+                        <span class="menos-3">-</span>
+                        <span class="numero-3">01</span>
+                        <span class="mas-3">+</span>
+                    </div>
+                </span>
+
+                <span>
+                    $4.800
+                </span>
+
+                <span>
+                    <button type="button" class="btn__eliminar__producto"><img src="./IMG/Iconos/DeleteIcon1x.png" alt=""></button>
+                </span>
+
+            </div>
+
+            <div class="finalizar__compra">
+                <span class="span__1">
+                    <h3 class="fuente__naranja">Total</h3>
+                    <h3>$14.000</h3>
+                </span>
+                <span class="span__1">
+                    <a href="./confirmacionCompra.html"></a><button type="submit" class="btn__finalizar__compra">FINALIZAR COMPRA</button>
+                </span>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="contenedor__main__2">
+            <h2 class="fuente__naranja">Pedido Mínimo</h2>
+            <span>
+                <h3>0% (0 COP)</h3>
+                <input type="range" value="100" minlength="0" maxlength="7000"><!--readonly disabled-->
+                <h3>100% (7.000 COP)</h3>
+            </span>
+        </div>
+
+    </main>
+
+    <hr>
+    <br>
+
+    <footer class="footer__carrito">
+
+    <h3>2021 Copyright LA FRITANGUITA COLOMBIA. Todos los derechos reservados.</h3>
+
+    </footer>
+
+
+    <!-- ARCHIVOS JS -->
+
+    <script src="./JS/btnIncrementoDecremento.js"></script>
+
+</body>
+</html>
